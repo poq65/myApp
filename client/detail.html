@@ -1,0 +1,19 @@
+<template name="detail">
+
+    <div class="container">
+        {{#with data}}
+        <div class="panel panel-default">
+            <div class="panel-heading">글번호: {{글번호}}  제목: {{제목}}   조회수: {{조회수}}</div>
+            <div class="panel-body">
+                {{내용}}
+            </div>
+        </div>
+        {{/with}}
+
+        <button class="pull-right btn-default "><a href="/haha"> 뒤로 </a></button>
+
+
+    </div>
+
+
+</template>
